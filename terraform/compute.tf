@@ -43,7 +43,7 @@ resource "aws_instance" "zone2_vm1_instance" {
   }
 }
 
-#Create VM1 in Private Subnet in us-east-1c
+#Create VM1 in Private Subnet in us-east-1d
 resource "aws_instance" "zone3_vm1_instance" {
   ami           = "ami-00c39f71452c08778"
   instance_type = "t2.micro"
