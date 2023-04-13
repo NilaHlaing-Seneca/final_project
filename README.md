@@ -1,5 +1,6 @@
 #### Final Project: Two-Tier web application automation with Terraform
 
+### Group 7
 
 ### Group Members 
 
