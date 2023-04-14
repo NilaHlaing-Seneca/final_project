@@ -8,7 +8,7 @@ resource "aws_vpc" "vpc" {
   instance_tenancy     = "default"
 
   tags = {
-    Name = "VPC"
+    Name = "Group7-Dev-VPC"
   }
 }
 # -------------------- End -------------------------
