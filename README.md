@@ -16,6 +16,47 @@
 
 
 
+#### How to clone Git Repo
+
+```
+git init
+
+#Generate a new SSH key pair
+ssh-keygen -t ed25519 -C <'your github email">
+
+#Check if you have an SSH key pair already generated on your local machine. 
+ls -la ~/.ssh
+
+#To see the Key
+cat ~/.ssh/id_ed25519.pub
+
+#Copy the Key
+#Go to you GitHub->Setting -> SSH and GPG Key -> New SSH Key -> Paste the copy key
+
+#Verify your connection to the remote repository by running:
+ssh -T git@github.com
+
+
+#Ensure the SSH agent is running in the background:
+eval "$(ssh-agent -s)"
+
+#Go to Repo that you want to clone -> Click Code -> SSH -> copy the <link>
+git clone <link>
+
+
+#To push
+git add .
+git commit -m "Add script" 
+git push
+
+#Pull
+git pull
+
+```
+
+
+
+
 #### How to SSH to Bistion and VMs
 ```
 #SSH to Bastion
