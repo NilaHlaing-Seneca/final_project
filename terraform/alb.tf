@@ -18,7 +18,7 @@ resource "aws_lb_listener" "project7_listener" {
   }
   
   resource "aws_lb_target_group" "project7_tg" {
-  vpc_id     = "vpc-0c2f63cbff68b15ec"
+  vpc_id     = aws_vpc.vpc.id
   name     = "tg"
   port     = 80
   protocol = "HTTP"
