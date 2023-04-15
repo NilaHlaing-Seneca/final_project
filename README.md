@@ -7,7 +7,7 @@
 1. Arunadevi Krishnan
 2. Nila Hlaing
 3. Niluxsi Puvanenthiran
- 
+ sample
  
 
 #### The application will be deployed on an Auto-Scaling Group (ASG) of EC2 instances with a minimum of 1 and a maximum of 4 instances across 3 availability zones.
