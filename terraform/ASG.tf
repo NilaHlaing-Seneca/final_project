@@ -20,9 +20,5 @@ resource "aws_autoscaling_group" "project7_prod_asg" {
   health_check_type         = "EC2"
   health_check_grace_period = 300
 
-  tag {
-    key                 = "Name"
-    value               = "project7-asg"
-    propagate_at_launch = true
-  }
+ 
 }
