@@ -57,7 +57,7 @@ git pull
 
 
 
-#### How to SSH to Bistion and VMs
+#### How to SSH to Bastion and VMs
 ```
 #SSH to Bastion
 chmod 400 <key-pair>
