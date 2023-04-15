@@ -10,9 +10,9 @@ resource "aws_autoscaling_policy" "project7_cpu_policy" {
     target_value = 10.0
   }
 
-  tags = {
-    Name = "project7-cpu-policy"
-  }
+  #tags = {
+   # Name = "project7-cpu-policy"
+ # }
 }
 
 resource "aws_cloudwatch_metric_alarm" "project7_cpu_alarm_high" {
