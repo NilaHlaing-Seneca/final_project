@@ -17,3 +17,12 @@ output "zone2_vm1_instance_vm_instance-ip" {
 output "zone2_vm3_instance_vm_instance-ip" {
   value =  aws_instance.zone3_vm1_instance.private_ip
 }
+#Private key
+output "private_ip" {
+  value = aws_instance.zone2_vm1_instance.private_ip
+}
+
+#GRoup 7 Webserver IP address
+output "web_eip" {
+  value = aws_eip.static_eip.private_ip
+}
